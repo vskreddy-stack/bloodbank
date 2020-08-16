@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+<ul>
+</ul>
+<br>
+<div style="padding-left:30px;">
+<h1> Register</h1>
+<form action="servlet/action1" method="post">
+	<h3><label for="fname">First Name</label><br></h3>
+        <input type="text" id="fname" name="first_name" placeholder="Your name.." required><br>
+
+        <h3><label for="lname">Last Name</label><br></h3>
+        <input type="text" id="lname" name="last_name" placeholder="Your last name.." required><br>
+
+	<h3><label for="Mailid">Mailid</label><br></h3>
+	<input type="text" id="Mailid" placeholder="Your Mail id.." required><br>
+	
+	<h3><label for="locality">locality</label><br></h3>
+	<input type="text" id="locality" placeholder="city" required><br>
+
+	<h3><label for="mnum">Mobile Number:</label><br></h3>
+	<br><input type="tel" id="phone" name="mnum" pattern="[0-9]{10}" placeholder="number..." required><br>
+
+	<br><h3><label for="DOB">DOB:</label></h3><br>
+	<br><input type="date" id="DOB" name="DOB" required><br>
+
+	<h3><p>Please select your gender:</p></h3>
+	  <label>
+	  <input type="radio" id="male" name="gender" value="male" required>
+	  Male
+	  </label><br>
+	  <label>
+	  <input type="radio" id="female" name="gender" value="female">
+	  Female
+	  </label><br>
+	  <br>
+
+	<h3><p> please enter your blood group:</p></h3>
+	  <label>
+	  <input type="radio" id="O+" name="blood_group" value="O+" required>
+	  O+
+	  </label><br>
+	  <label>
+	  <input type="radio" id="O-" name="blood_group" value="O-">
+	  O-
+	  </label><br>
+	  <label>
+	  <input type="radio" id="A+" name="blood_group" value="A+">
+	  A+
+	  </label><br>
+	  <label>
+	  <input type="radio" id="A-" name="blood_group" value="A-">
+	  A-
+	  </label><br>
+	  <label>
+	  <input type="radio" id="B+" name="blood_group" value="B+">
+	  B+
+	  </label><br>
+	  <label>
+	  <input type="radio" id="B-" name="blood_group" value="B-">
+	  B-
+	  </label><br>
+	  <label>	  
+	  <input type="radio" id="AB+" name="blood_group" value="AB+">
+	  AB+
+	  </label><br>
+	  <label>
+	  <input type="radio" id="AB-" name="blood_group" value="AB-">
+	  AB-
+	  </label><br>
+	<br>
+	  <h3><input type="submit" value="Submit"></h3>
+
+</form>
+
